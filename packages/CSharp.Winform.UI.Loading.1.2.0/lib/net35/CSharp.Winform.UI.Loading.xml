@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CSharp.Winform.UI.Loading</name>
+    </assembly>
+    <members>
+        <member name="T:CSharp.Winform.UI.Loading.WaitLoading">
+            <summary>
+            Mask controls
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.Loading.WaitLoading.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.Loading.WaitLoading.#ctor(System.Boolean)">
+            <summary>  
+            Initializes the load control  
+            </summary>
+            <param name="showLoadingImage">Display the loaded image</param>  
+        </member>
+        <member name="M:CSharp.Winform.UI.Loading.WaitLoading.#ctor(System.Int32,System.Boolean)">
+            <summary>  
+            Initializes the load control +1
+            </summary>
+            <param name="alpha">alpha</param>  
+            <param name="showLoadingImage">Display the loaded image</param> 
+        </member>
+        <member name="P:CSharp.Winform.UI.Loading.WaitLoading.BkColor">
+            <summary>
+            Control background color
+            </summary>
+        </member>
+        <member name="P:CSharp.Winform.UI.Loading.WaitLoading.IsTransparent">
+            <summary>
+            Transparency is used, the default is true
+            </summary>
+        </member>
+        <member name="P:CSharp.Winform.UI.Loading.WaitLoading.Alpha">
+            <summary>
+            Set transparency 0-255
+            </summary>
+        </member>
+        <member name="P:CSharp.Winform.UI.Loading.WaitLoading.BindControl">
+            <summary>
+            Bind controls that need to be masked, and bind forms by default
+            </summary>
+        </member>
+        <member name="P:CSharp.Winform.UI.Loading.WaitLoading.LoadingImage">
+            <summary>
+            Loading background-image
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.Loading.WaitLoading.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            Redraw
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:CSharp.Winform.UI.Loading.WaitLoading.Dispose(System.Boolean)">
+            <summary>
+            Dispose
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="P:CSharp.Winform.UI.Loading.WaitLoading.CreateParams">
+            <summary>
+            CreateParams
+            </summary>
+        </member>
+        <member name="M:CSharp.Winform.UI.Loading.WaitLoading.ShowLoad">
+            <summary>  
+            Show  
+            </summary>  
+        </member>
+        <member name="M:CSharp.Winform.UI.Loading.WaitLoading.HideLoad">
+            <summary>  
+            Hide  
+            </summary>  
+        </member>
+    </members>
+</doc>
